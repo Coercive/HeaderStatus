@@ -1,0 +1,27 @@
+{
+    "name": "coercive/headerstatus",
+    "type": "library",
+    "description": "Coercive HeaderStatus Utility",
+    "homepage": "http://coercive.fr",
+    "license": "GNU",
+    "authors": [
+        {
+            "name": "Anthony Moral",
+            "email": "contact@coercive.fr",
+            "homepage": "http://coercive.fr"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-4": { "Coercive\\Utility\\HeaderStatus\\": "" }
+    },
+    "minimum-stability" : "dev",
+    "prefer-stable" : true,
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1-dev"
+        }
+    }
+}
